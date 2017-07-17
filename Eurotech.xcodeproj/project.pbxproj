@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55ED958A75E6C2E67510627C /* Pods_EurotechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A536E73690479DE6402F6597 /* Pods_EurotechTests.framework */; };
+		60D19C161F0E2026009ECB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C151F0E2026009ECB86 /* AppDelegate.swift */; };
+		60D19C181F0E2026009ECB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C171F0E2026009ECB86 /* ViewController.swift */; };
+		60D19C1B1F0E2026009ECB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D19C191F0E2026009ECB86 /* Main.storyboard */; };
+		60D19C1E1F0E2026009ECB86 /* Eurotech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C1C1F0E2026009ECB86 /* Eurotech.xcdatamodeld */; };
+		60D19C201F0E2026009ECB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D19C1F1F0E2026009ECB86 /* Assets.xcassets */; };
+		60D19C231F0E2026009ECB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D19C211F0E2026009ECB86 /* LaunchScreen.storyboard */; };
+		60D19C2E1F0E2027009ECB86 /* EurotechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C2D1F0E2027009ECB86 /* EurotechTests.swift */; };
+		60D19C391F0E2027009ECB86 /* EurotechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C381F0E2027009ECB86 /* EurotechUITests.swift */; };
+		60D19C4C1F13A849009ECB86 /* MenuTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C4B1F13A849009ECB86 /* MenuTableVC.swift */; };
+		60D19C4E1F13A8BD009ECB86 /* GoodsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C4D1F13A8BD009ECB86 /* GoodsCollectionVC.swift */; };
+		60D19C501F14009B009ECB86 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C4F1F14009B009ECB86 /* Menu.swift */; };
+		60D19C581F179B2F009ECB86 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C571F179B2F009ECB86 /* Unit.swift */; };
+		60D19C5C1F17B8FD009ECB86 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C5B1F17B8FD009ECB86 /* Color.swift */; };
+		60D19C5E1F1BB976009ECB86 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19C5D1F1BB976009ECB86 /* ProductCollectionViewCell.swift */; };
+		8B238CF79B58D1F12C2C7925 /* Pods_EurotechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3E77C4A9C184AEEE4B48AC /* Pods_EurotechUITests.framework */; };
+		E66C1BF198CB4814FC4E429C /* Pods_Eurotech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39800636F2CB9B196A6B3F91 /* Pods_Eurotech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60D19C2A1F0E2027009ECB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60D19C0A1F0E2026009ECB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60D19C111F0E2026009ECB86;
+			remoteInfo = Eurotech;
+		};
+		60D19C351F0E2027009ECB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60D19C0A1F0E2026009ECB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60D19C111F0E2026009ECB86;
+			remoteInfo = Eurotech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E3AB8FF042B173EB88C7F7 /* Pods-Eurotech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eurotech.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eurotech/Pods-Eurotech.release.xcconfig"; sourceTree = "<group>"; };
+		2CC9A1741C1AFB4D2EBC47E1 /* Pods-EurotechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurotechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurotechTests/Pods-EurotechTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F3E77C4A9C184AEEE4B48AC /* Pods_EurotechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurotechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F6598E8E82BFE264CAC7CD /* Pods-EurotechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurotechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurotechTests/Pods-EurotechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39800636F2CB9B196A6B3F91 /* Pods_Eurotech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eurotech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D19C121F0E2026009ECB86 /* Eurotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eurotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D19C151F0E2026009ECB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60D19C171F0E2026009ECB86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60D19C1A1F0E2026009ECB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60D19C1D1F0E2026009ECB86 /* Eurotech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eurotech.xcdatamodel; sourceTree = "<group>"; };
+		60D19C1F1F0E2026009ECB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60D19C221F0E2026009ECB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60D19C241F0E2026009ECB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D19C291F0E2027009ECB86 /* EurotechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurotechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D19C2D1F0E2027009ECB86 /* EurotechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurotechTests.swift; sourceTree = "<group>"; };
+		60D19C2F1F0E2027009ECB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D19C341F0E2027009ECB86 /* EurotechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurotechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D19C381F0E2027009ECB86 /* EurotechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurotechUITests.swift; sourceTree = "<group>"; };
+		60D19C3A1F0E2027009ECB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D19C4B1F13A849009ECB86 /* MenuTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableVC.swift; sourceTree = "<group>"; };
+		60D19C4D1F13A8BD009ECB86 /* GoodsCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsCollectionVC.swift; sourceTree = "<group>"; };
+		60D19C4F1F14009B009ECB86 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		60D19C571F179B2F009ECB86 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		60D19C5B1F17B8FD009ECB86 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		60D19C5D1F1BB976009ECB86 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		79C18689530A7F5ABB6CADFD /* Pods-EurotechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurotechUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurotechUITests/Pods-EurotechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C320B56F62075049C85A7A5 /* Pods-Eurotech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eurotech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eurotech/Pods-Eurotech.debug.xcconfig"; sourceTree = "<group>"; };
+		A536E73690479DE6402F6597 /* Pods_EurotechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurotechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A6B44505D2F7AF0A8BB5A /* Pods-EurotechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurotechUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurotechUITests/Pods-EurotechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60D19C0F1F0E2026009ECB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66C1BF198CB4814FC4E429C /* Pods_Eurotech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C261F0E2027009ECB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ED958A75E6C2E67510627C /* Pods_EurotechTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C311F0E2027009ECB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B238CF79B58D1F12C2C7925 /* Pods_EurotechUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA4496526302FCC77F7D892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39800636F2CB9B196A6B3F91 /* Pods_Eurotech.framework */,
+				A536E73690479DE6402F6597 /* Pods_EurotechTests.framework */,
+				2F3E77C4A9C184AEEE4B48AC /* Pods_EurotechUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60D19C091F0E2026009ECB86 = {
+			isa = PBXGroup;
+			children = (
+				60D19C141F0E2026009ECB86 /* Eurotech */,
+				60D19C2C1F0E2027009ECB86 /* EurotechTests */,
+				60D19C371F0E2027009ECB86 /* EurotechUITests */,
+				60D19C131F0E2026009ECB86 /* Products */,
+				BEEB9EFDA3A7F46A8B59FC1F /* Pods */,
+				2FA4496526302FCC77F7D892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60D19C131F0E2026009ECB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60D19C121F0E2026009ECB86 /* Eurotech.app */,
+				60D19C291F0E2027009ECB86 /* EurotechTests.xctest */,
+				60D19C341F0E2027009ECB86 /* EurotechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60D19C141F0E2026009ECB86 /* Eurotech */ = {
+			isa = PBXGroup;
+			children = (
+				60D19C151F0E2026009ECB86 /* AppDelegate.swift */,
+				60D19C171F0E2026009ECB86 /* ViewController.swift */,
+				60D19C4D1F13A8BD009ECB86 /* GoodsCollectionVC.swift */,
+				60D19C5D1F1BB976009ECB86 /* ProductCollectionViewCell.swift */,
+				60D19C571F179B2F009ECB86 /* Unit.swift */,
+				60D19C4B1F13A849009ECB86 /* MenuTableVC.swift */,
+				60D19C4F1F14009B009ECB86 /* Menu.swift */,
+				60D19C5B1F17B8FD009ECB86 /* Color.swift */,
+				60D19C191F0E2026009ECB86 /* Main.storyboard */,
+				60D19C1F1F0E2026009ECB86 /* Assets.xcassets */,
+				60D19C211F0E2026009ECB86 /* LaunchScreen.storyboard */,
+				60D19C241F0E2026009ECB86 /* Info.plist */,
+				60D19C1C1F0E2026009ECB86 /* Eurotech.xcdatamodeld */,
+			);
+			path = Eurotech;
+			sourceTree = "<group>";
+		};
+		60D19C2C1F0E2027009ECB86 /* EurotechTests */ = {
+			isa = PBXGroup;
+			children = (
+				60D19C2D1F0E2027009ECB86 /* EurotechTests.swift */,
+				60D19C2F1F0E2027009ECB86 /* Info.plist */,
+			);
+			path = EurotechTests;
+			sourceTree = "<group>";
+		};
+		60D19C371F0E2027009ECB86 /* EurotechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60D19C381F0E2027009ECB86 /* EurotechUITests.swift */,
+				60D19C3A1F0E2027009ECB86 /* Info.plist */,
+			);
+			path = EurotechUITests;
+			sourceTree = "<group>";
+		};
+		BEEB9EFDA3A7F46A8B59FC1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C320B56F62075049C85A7A5 /* Pods-Eurotech.debug.xcconfig */,
+				00E3AB8FF042B173EB88C7F7 /* Pods-Eurotech.release.xcconfig */,
+				37F6598E8E82BFE264CAC7CD /* Pods-EurotechTests.debug.xcconfig */,
+				2CC9A1741C1AFB4D2EBC47E1 /* Pods-EurotechTests.release.xcconfig */,
+				F48A6B44505D2F7AF0A8BB5A /* Pods-EurotechUITests.debug.xcconfig */,
+				79C18689530A7F5ABB6CADFD /* Pods-EurotechUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60D19C111F0E2026009ECB86 /* Eurotech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D19C3D1F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "Eurotech" */;
+			buildPhases = (
+				826DA29BFB886BB149F5B067 /* [CP] Check Pods Manifest.lock */,
+				60D19C0E1F0E2026009ECB86 /* Sources */,
+				60D19C0F1F0E2026009ECB86 /* Frameworks */,
+				60D19C101F0E2026009ECB86 /* Resources */,
+				BBCC9E3CC010B9E762681461 /* [CP] Embed Pods Frameworks */,
+				5E57B5939B90B38E15EE3402 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eurotech;
+			productName = Eurotech;
+			productReference = 60D19C121F0E2026009ECB86 /* Eurotech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60D19C281F0E2027009ECB86 /* EurotechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D19C401F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "EurotechTests" */;
+			buildPhases = (
+				BE9B4AEE182CA8094613D5A2 /* [CP] Check Pods Manifest.lock */,
+				60D19C251F0E2027009ECB86 /* Sources */,
+				60D19C261F0E2027009ECB86 /* Frameworks */,
+				60D19C271F0E2027009ECB86 /* Resources */,
+				A569CC37EECFF090F4C83702 /* [CP] Embed Pods Frameworks */,
+				4D8DEE90BB204CA7066249EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60D19C2B1F0E2027009ECB86 /* PBXTargetDependency */,
+			);
+			name = EurotechTests;
+			productName = EurotechTests;
+			productReference = 60D19C291F0E2027009ECB86 /* EurotechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60D19C331F0E2027009ECB86 /* EurotechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D19C431F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "EurotechUITests" */;
+			buildPhases = (
+				C7AFE26A3147E183475878C8 /* [CP] Check Pods Manifest.lock */,
+				60D19C301F0E2027009ECB86 /* Sources */,
+				60D19C311F0E2027009ECB86 /* Frameworks */,
+				60D19C321F0E2027009ECB86 /* Resources */,
+				3D0A9EF2286591B202E21FA5 /* [CP] Embed Pods Frameworks */,
+				6C93A9B5CEA6B705BAAC7709 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60D19C361F0E2027009ECB86 /* PBXTargetDependency */,
+			);
+			name = EurotechUITests;
+			productName = EurotechUITests;
+			productReference = 60D19C341F0E2027009ECB86 /* EurotechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60D19C0A1F0E2026009ECB86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Артем Карпов";
+				TargetAttributes = {
+					60D19C111F0E2026009ECB86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					60D19C281F0E2027009ECB86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60D19C111F0E2026009ECB86;
+					};
+					60D19C331F0E2027009ECB86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60D19C111F0E2026009ECB86;
+					};
+				};
+			};
+			buildConfigurationList = 60D19C0D1F0E2026009ECB86 /* Build configuration list for PBXProject "Eurotech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60D19C091F0E2026009ECB86;
+			productRefGroup = 60D19C131F0E2026009ECB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60D19C111F0E2026009ECB86 /* Eurotech */,
+				60D19C281F0E2027009ECB86 /* EurotechTests */,
+				60D19C331F0E2027009ECB86 /* EurotechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60D19C101F0E2026009ECB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D19C231F0E2026009ECB86 /* LaunchScreen.storyboard in Resources */,
+				60D19C201F0E2026009ECB86 /* Assets.xcassets in Resources */,
+				60D19C1B1F0E2026009ECB86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C271F0E2027009ECB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C321F0E2027009ECB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D0A9EF2286591B202E21FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurotechUITests/Pods-EurotechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8DEE90BB204CA7066249EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurotechTests/Pods-EurotechTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E57B5939B90B38E15EE3402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eurotech/Pods-Eurotech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C93A9B5CEA6B705BAAC7709 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurotechUITests/Pods-EurotechUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826DA29BFB886BB149F5B067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A569CC37EECFF090F4C83702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurotechTests/Pods-EurotechTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCC9E3CC010B9E762681461 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eurotech/Pods-Eurotech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9B4AEE182CA8094613D5A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7AFE26A3147E183475878C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60D19C0E1F0E2026009ECB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D19C501F14009B009ECB86 /* Menu.swift in Sources */,
+				60D19C181F0E2026009ECB86 /* ViewController.swift in Sources */,
+				60D19C1E1F0E2026009ECB86 /* Eurotech.xcdatamodeld in Sources */,
+				60D19C581F179B2F009ECB86 /* Unit.swift in Sources */,
+				60D19C4E1F13A8BD009ECB86 /* GoodsCollectionVC.swift in Sources */,
+				60D19C4C1F13A849009ECB86 /* MenuTableVC.swift in Sources */,
+				60D19C161F0E2026009ECB86 /* AppDelegate.swift in Sources */,
+				60D19C5E1F1BB976009ECB86 /* ProductCollectionViewCell.swift in Sources */,
+				60D19C5C1F17B8FD009ECB86 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C251F0E2027009ECB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D19C2E1F0E2027009ECB86 /* EurotechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D19C301F0E2027009ECB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D19C391F0E2027009ECB86 /* EurotechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60D19C2B1F0E2027009ECB86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60D19C111F0E2026009ECB86 /* Eurotech */;
+			targetProxy = 60D19C2A1F0E2027009ECB86 /* PBXContainerItemProxy */;
+		};
+		60D19C361F0E2027009ECB86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60D19C111F0E2026009ECB86 /* Eurotech */;
+			targetProxy = 60D19C351F0E2027009ECB86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60D19C191F0E2026009ECB86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D19C1A1F0E2026009ECB86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60D19C211F0E2026009ECB86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D19C221F0E2026009ECB86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60D19C3B1F0E2027009ECB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60D19C3C1F0E2027009ECB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60D19C3E1F0E2027009ECB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C320B56F62075049C85A7A5 /* Pods-Eurotech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eurotech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.Eurotech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60D19C3F1F0E2027009ECB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E3AB8FF042B173EB88C7F7 /* Pods-Eurotech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eurotech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.Eurotech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60D19C411F0E2027009ECB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F6598E8E82BFE264CAC7CD /* Pods-EurotechTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EurotechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.EurotechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eurotech.app/Eurotech";
+			};
+			name = Debug;
+		};
+		60D19C421F0E2027009ECB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC9A1741C1AFB4D2EBC47E1 /* Pods-EurotechTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EurotechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.EurotechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eurotech.app/Eurotech";
+			};
+			name = Release;
+		};
+		60D19C441F0E2027009ECB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48A6B44505D2F7AF0A8BB5A /* Pods-EurotechUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EurotechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.EurotechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Eurotech;
+			};
+			name = Debug;
+		};
+		60D19C451F0E2027009ECB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C18689530A7F5ABB6CADFD /* Pods-EurotechUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EurotechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArtKarpov.EurotechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Eurotech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60D19C0D1F0E2026009ECB86 /* Build configuration list for PBXProject "Eurotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D19C3B1F0E2027009ECB86 /* Debug */,
+				60D19C3C1F0E2027009ECB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D19C3D1F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "Eurotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D19C3E1F0E2027009ECB86 /* Debug */,
+				60D19C3F1F0E2027009ECB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D19C401F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "EurotechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D19C411F0E2027009ECB86 /* Debug */,
+				60D19C421F0E2027009ECB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D19C431F0E2027009ECB86 /* Build configuration list for PBXNativeTarget "EurotechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D19C441F0E2027009ECB86 /* Debug */,
+				60D19C451F0E2027009ECB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60D19C1C1F0E2026009ECB86 /* Eurotech.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60D19C1D1F0E2026009ECB86 /* Eurotech.xcdatamodel */,
+			);
+			currentVersion = 60D19C1D1F0E2026009ECB86 /* Eurotech.xcdatamodel */;
+			path = Eurotech.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60D19C0A1F0E2026009ECB86 /* Project object */;
+}
