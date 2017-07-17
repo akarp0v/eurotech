@@ -54,7 +54,6 @@ extension Unit {
             imagesUrls.insert((obj["path"] as? String)!, at: 0)
         }
         //let imagesUrls = images.map{$0["path"]} as? [String]
-        //print(imagesUrls)
         return Unit(name: name, descr: descr, article: article, imagesUrls: imagesUrls)
     }
 }
